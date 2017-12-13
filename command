@@ -1,0 +1,1 @@
+python3 run_summarization.py --mode=train --data_path=../cnn-dailymail/finished_files/chunked/train_* --vocab_path=../cnn-dailymail/finished_files/vocab --log_root=../pretrainned --exp_name=prob_new --max_enc_steps=400 --max_dec_steps=100 --coverage=1 --batch_size=12 --hidden_dim=50 --vocab_size=50000

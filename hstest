@@ -1,0 +1,1 @@
+python3 run_summarization.py --mode=eval  --data_path='/Users/hyunsun/PycharmProjects/pointer-generator/finished_files/chunked/val_*.bin' --vocab_path='/Users/hyunsun/PycharmProjects/pointer-generator/finished_files/vocab' --log_root='/Users/hyunsun/PycharmProjects/pointer-generator/log/pretrainned/' --exp_name=pretrained_model_tf1.2.1
